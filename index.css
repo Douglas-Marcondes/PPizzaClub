@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.unico {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parte1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.foto1, .foto2, .foto3 {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+}
+
+/* Adicione mais seletores e propriedades para personalizar o estilo */
