@@ -10,7 +10,7 @@ body {
 
 .cabecalho {
     background-color: #fff;
-    padding: 10px 0;
+    padding: 30px 0;
     text-align: center;
     width: 100%;
     box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
@@ -23,18 +23,22 @@ body {
     font-weight: bold;
 }
 
-.logo1,
+.logo1 {
+    width: 100px; /* Ajuste conforme necessário */
+}
+
 .logo2 {
     width: 50px; /* Ajuste conforme necessário */
 }
 
 .login {
     background-color: #fff;
-    width: 350px; /* Ajuste conforme necessário */
+    width: 450px; /* Ajuste conforme necessário */
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-    border-radius: 10px;
+    border-radius: 1px;
     text-align: center;
+    margin-top: 30px;
 }
 
 .login h1 {
@@ -47,10 +51,10 @@ body {
     margin-bottom: 20px;
 }
 
-.login input[type="text"] {
+.login input {
     width: calc(100% - 20px);
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 16px;
@@ -83,14 +87,20 @@ button {
 .face {
     background-color: #3b5998;
     color: white;
+    border: solid 1px #000;
+    border-radius: 1%;
 }
 
 .google {
-    background-color: #db4437;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: solid 1px #000;
+    border-radius: 1%;
 }
 
 .apple {
     background-color: black;
     color: white;
+    border: solid 1px #000;
+    border-radius: 1%;
 }
