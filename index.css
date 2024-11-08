@@ -2,64 +2,64 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    box-sizing: border-box;
 }
 
 .cabecalho {
-    background-color: #333;
-    padding: 10px 0;
+    background-color: #0221bd; 
+    padding: 20px 0;
     text-align: center;
 }
 
 .cabecalho a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 10px;
     font-size: 16px;
 }
 
-.cabecalho .logo1 {
-    height: 50px;
-    vertical-align: middle;
-}
-
-.cabecalho .logo2 {
-    height: 30px;
-    vertical-align: middle;
+.logo1,
+.logo2 {
+    width: 100px; /* Tamanho das logos */
 }
 
 .parte1 {
+    background-color: #f3f3f3; /* Fundo cinza claro */
     text-align: center;
     padding: 50px 0;
-    background-color: #fff;
 }
 
 .parte1 h1 {
-    font-size: 24px;
+    color: #333333; /* Cor do texto */
     margin-bottom: 20px;
 }
 
 .parte1 button {
-    background-color: #ff6600;
+    background-color: #0221bd; /* Cor do botão vermelho */
     color: white;
     border: none;
     padding: 10px 20px;
-    margin: 10px;
+    margin: 0 10px;
     cursor: pointer;
     font-size: 16px;
 }
 
 .parte1 p {
-    font-size: 18px;
-    margin: 20px 0;
+    color: #000000; /* Cor do texto 'OU' */
+    margin: 15px 0;
 }
 
 .imagens {
-    text-align: center;
-    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
 }
 
 .imagens img {
-    margin: 10px;
-    height: 200px;
+    width: calc(25% - 20px); /* Ajuste para quatro imagens */
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
