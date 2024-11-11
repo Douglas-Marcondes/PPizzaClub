@@ -69,3 +69,9 @@ button:hover {
     width: 200px;
     height: auto;
 }
+
+.logo {
+    filter: invert(100%);
+    width: 230px;
+    height: 150px;
+}
