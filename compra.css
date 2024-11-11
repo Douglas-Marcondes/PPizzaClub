@@ -40,7 +40,7 @@ body {
 }
 
 button {
-    background-color: #ff9900;
+    background-color: #005cbf;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -65,12 +65,14 @@ button {
     justify-content: center;
 }
 
-.imagen img {
+.imagen  {
     width: 100%;
-    max-width: 150px; /* Ajuste conforme necessário */
+    max-width: 150px;
+    margin-right: 10px;
 }
 
 .texto p {
     font-size: 18px; /* Ajuste conforme necessário */
     font-weight: bold;
+    margin-right: 250px;
 }
