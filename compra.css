@@ -68,6 +68,7 @@ button {
 .imagen  {
     width: 100px;
     margin-right: 10px;
+    height: 120px;
 }
 
 .texto p {
