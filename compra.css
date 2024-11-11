@@ -23,7 +23,9 @@ body {
     text-decoration: none;
     font-weight: bold;
 }
-
+.logo1 {
+    filter: invert(100%);
+}
 .logo1, .logo2 {
     height: 50px; /* Ajuste conforme necessário */
 }
