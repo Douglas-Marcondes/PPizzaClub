@@ -1,63 +1,76 @@
-
-
+/* Estilo geral do corpo */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; /* Garante que o padding e a borda sejam incluídos na largura e altura */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-/* Cabeçalho */
+/* Estilo da seção do cabeçalho */
 .cabecalho {
-  background-color: #0221bd;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    background-color: #005cbf;
+    color: white;
+    padding: 20px 0;
+}
+
+.cabecalho .unico {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .cabecalho a {
-  text-decoration: none;
-  color: #333;
-  margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .logo1, .logo2 {
-  height: 30px;
+    height: 50px; /* Ajuste conforme necessário */
 }
 
-/* Seção de Localização */
+/* Estilo do conteúdo principal */
 .comeco {
-  text-align: center;
-  padding: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px 0;
 }
 
-.comeco button {
-  background-color: #0221bd;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin: 10px;
+.comeco h1, .comeco h2 {
+    margin: 10px;
 }
 
-/* Seção de Entrega */
-.parte1 {
-  text-align: center;
-  padding: 20px;
+button {
+    background-color: #ff9900;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* Estilo das seções parte1 e parte2 */
+.parte1, .parte2 {
+    text-align: center;
+}
+
+.parte1 h1 {
+    background-color: #005cbf;
+    color: white;
+    padding: 10px 0;
 }
 
 .parte2 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
-.parte2 div {
-  text-align: center;
+.imagen img {
+    width: 100%;
+    max-width: 150px; /* Ajuste conforme necessário */
 }
 
-.parte2 img {
-  width: 100px;
+.texto p {
+    font-size: 18px; /* Ajuste conforme necessário */
+    font-weight: bold;
 }
