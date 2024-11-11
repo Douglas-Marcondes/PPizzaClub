@@ -20,12 +20,12 @@ body {
 
 .logo1 {
   filter: invert(100%);
-  width: 300px;
+  width: 230px;
   height: 150px;
 }
 
 .logo2 {
-    width: 100px; /* Tamanho das logos */
+    width: 40px; /* Tamanho das logos */
 }
 
 .parte1 {
