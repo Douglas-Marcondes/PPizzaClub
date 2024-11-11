@@ -18,7 +18,11 @@ body {
     font-size: 16px;
 }
 
-.logo1,
+.logo1 {
+  filter: invert(100%);
+  width: 100px;
+}
+
 .logo2 {
     width: 100px; /* Tamanho das logos */
 }
