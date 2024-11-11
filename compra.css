@@ -31,12 +31,19 @@ body {
 /* Estilo do conteúdo principal */
 .comeco {
     text-align: center;
-    background-color: #f2f2f2;
     padding: 20px 0;
 }
 
-.comeco h1, .comeco h2 {
+.comeco h1 {
+    font-size: 20px;
     margin: 10px;
+    color: #005cbf;
+    margin-left: 50px;
+    margin-top: 1px;
+}
+.comeco h2 {
+margin-left: 25px;
+margin-right: 25px;
 }
 
 button {
@@ -49,8 +56,8 @@ button {
     font-size: 16px;
 }
 
-/* Estilo das seções parte1 e parte2 */
-.parte1, .parte2 {
+
+.parte2 {
     text-align: center;
 }
 
@@ -58,21 +65,35 @@ button {
     background-color: #005cbf;
     color: white;
     padding: 10px 0;
+    margin: 0;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .parte2 {
     display: flex;
     justify-content: center;
+    background-color: #f2f2f2;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.imagen {
+    background-color: #005cbf;
+    margin-top: 100px;
+    margin-left: 100px;
 }
 
 .teste  {
     width: 100px;
-    margin-right: 10px;
     height: 120px;
 }
+img {
+    margin-left: 1px;
+}
 
-.texto p {
+.texto  {
     font-size: 18px; /* Ajuste conforme necessário */
     font-weight: bold;
-    margin-right: 250px;
+    margin-right: 200px;
 }
