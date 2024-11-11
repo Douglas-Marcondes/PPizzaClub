@@ -65,7 +65,7 @@ button {
     justify-content: center;
 }
 
-.imagen  {
+.imagen, img  {
     width: 100px;
     margin-right: 10px;
     height: 120px;
