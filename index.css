@@ -20,7 +20,8 @@ body {
 
 .logo1 {
   filter: invert(100%);
-  width: 100px;
+  width: 300px;
+  height: 150px;
 }
 
 .logo2 {
