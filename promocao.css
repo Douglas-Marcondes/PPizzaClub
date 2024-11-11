@@ -6,7 +6,7 @@ body {
 }
 
 .cabecalho {
-    background-color: red;
+    background-color: #003366;
     padding: 10px 0;
     display: flex;
     justify-content: center;
@@ -48,7 +48,7 @@ h1 {
 }
 
 .parte2 button {
-    background-color: #003366;
+    background-color: red;
     color: white;
     border: none;
     padding: 10px 20px;
