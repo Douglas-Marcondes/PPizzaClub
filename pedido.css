@@ -6,9 +6,9 @@ body {
 }
 
 .cabecalho {
-    background-color: #333;
+    background-color: #005cbf;
     color: white;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .cabecalho .unico {
@@ -20,15 +20,14 @@ body {
 .cabecalho a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    font-weight: bold;
 }
-
-.cabecalho a:hover {
-    text-decoration: underline;
-}
-
-.cabecalho .logo1, .cabecalho .logo2 {
+.logo1 {
+    filter: invert(100%);
     height: 50px;
+}
+.logo2 {
+    height: 50px; 
 }
 
 .azul {
