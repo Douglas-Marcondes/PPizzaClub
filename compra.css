@@ -77,13 +77,14 @@ button {
     margin-left: 200px;
     margin-right: 200px;
     texte-aling: center;
-    border-radius: 100px;
 }
 
 .imagen {
     background-color: #005cbf;
     margin-top: 100px;
     margin-left: 100px;
+    border-radius: 100px;
+    height: 40px;
 }
 
 .teste  {
